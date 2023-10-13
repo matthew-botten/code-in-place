@@ -22,7 +22,7 @@ EARTH = 1.000
 def main():
     # input a weight and a planet
     earth_weight = float(input("Enter a weight on Earth: "))
-    planet = input("Enter a planet: ")
+    planet = input("Enter a planet (e.g. Mars): ")
     
     # checks which planet constant to use as the gravity constant
     if planet == "Mercury":
